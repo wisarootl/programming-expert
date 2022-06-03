@@ -1,0 +1,20 @@
+{
+  "contacts": [
+    {
+      "first_name": "john",
+      "last_name": "doe",
+      "mobile": "090-123-4567",
+      "home": "",
+      "email": "john@gmail.com",
+      "address": ""
+    },
+    {
+      "first_name": "jane",
+      "last_name": "doe",
+      "mobile": "012-123-4567",
+      "home": "",
+      "email": "",
+      "address": ""
+    }
+  ]
+}
