@@ -12,10 +12,10 @@ After this you'll need to determine the number of games that were played by each
 
 When asking for user input, you'll need to make sure all input is valid and ask the user to try again if they give you invalid input. You may assume user input will always be the correct type (i.e. if you ask for a number you will always get an integer). You can determine if the input is invalid by looking at the following constraints:
 
-- There are always at least 2 teams in the tournament.
+- There are always at least `2` teams in the tournament.
 - Each team plays every other team at least once in the regular season.
-- All team names contain at most 2 words and at least 2 characters.
-- Each team has at minimum 0 wins and no more wins than the number of games they played.
+- All team names contain at most `2` words and at least `2` characters.
+- Each team has at minimum `0` wins and no more wins than the number of games they played.
 
 In the first round of the tournament the teams with the most regular season wins play the teams with the least regular season wins. For example, if Team A has 5 wins, Team B has 4 wins, Team C has 3 wins and Team D has 2 wins then Team A and Team D play each other and Team B and C play each other. If teams are tied for wins and/or losses then your program can choose any appropriate team.
 
